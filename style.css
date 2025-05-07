@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+		--colorFondo:#181a6e;
+		--colorDiv:#DDE4F8;
+		--barritaMala:#ad2a23;
+}
+
+body{
+	background: var(--colorFondo);
+	text-align: center;
+	margin:0;
+	Padding:0;
+	font-family: "Atkinson Hyperlegible", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+}
+
+
+a{
+	color: black;
+	transition: color ease 1s;
+}
+
+a:hover{
+	color:#ad2a23;
+		transition: color ease 1s;
+
+}
+
+div.container{
+	width:min(800px, 90%);
+	margin:2rem auto;
+	padding:1rem;
+	background: var(--colorDiv);
+	text-align:left;
+}
+
+h1{
+	font-weight: lighter;
+	font-size: calc(2rem + 0.5vw);
+	margin: 0;
+	color: var(--colorTexto);
+}
+
+p{
+	margin-left:0.2rem;
+}
+
+table{
+	width: 100%;
+	margin-bottom: 0.5rem;
+}
+
+table, th, td{ 
+	font-size:88%; 
+	border-bottom: 1px solid black; 
+	border-collapse: collapse;
+	border-bottom:1px solid black;
+	border-collapse:collapse; 
+}
+
+th, td{
+	padding:0.2rem;
+}
+
+th:nth-child(3), td:nth-child(3){
+	text-align: left;
+    vertical-align: middle;
+    padding: 0.4rem;
+}
+
+#Nota {
+  text-align: left;
+  padding-left: 6rem;
+  vertical-align: middle;
+}
+
+p {
+  font-weight: bold;
+}
+
+.barra-svg {
+    display: block;
+    margin: 0 auto;
+}
+
+#coso{
+	height: 50vh;
+}
